@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construcheck - Vistorias de Imóveis</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #004080; /* Azul escuro */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        /* Navegação */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Seção hero (imagem principal com título) */
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x600'); /* Imagem de fundo */
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 24px;
+        }
+
+        /* Seção de serviços */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 40px 20px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .service-item h3 {
+            color: #004080;
+            margin-bottom: 10px;
+        }
+
+        /* Botões de ação */
+        .button {
+            background-color: #00a859;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #00703e;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* Redes sociais no rodapé */
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 20px;
+            }
+
+            .service-item {
+                width: 100%;
+                max-width: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Construcheck</h1>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#">Ínicio</a>
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div>
+            <h2>Vistorias Imobiliárias Confiáveis</h2>
+            <p>Inspeção completa para imóveis residenciais e comerciais</p>
+        </div>
+    </section>
+
+    <!-- Seção de serviços -->
+    <section id="services" class="services">
+        <div class="service-item">
+            <h3>Vistorias Residenciais</h3>
+            <p>Realizamos vistoria completa em imóveis residenciais, garantindo a segurança e qualidade.</p>
+        </div>
+        <div class="service-item">
+            <h3>Vistorias Comerciais</h3>
+            <p>Nossa equipe especializada oferece serviços de inspeção para ambientes comerciais.</p>
+        </div>
+    </section>
+
+    <!-- Botões de ação -->
+    <div style="text-align: center; margin: 40px 0;">
+        <a href="https://wa.me/556192860664" class="button" target="_blank" rel="noopener noreferrer">Fale Conosco no WhatsApp</a>
+        <a href="https://instagram.com/construcheck_vistorias" class="button" target="_blank" rel="noopener noreferrer">Siga-nos no Instagram</a>
+        <a href="mailto:construcheck.vistorias@gmail.com?subject=Orçamento&body=Por favor, entre em contato para orçamento." class="button">Faça seu orçamento sem compromisso</a>
+    </div>
+
+    <!-- Rodapé -->
+    <footer id="contact">
+        <p>&copy; 2024 Construcheck. Seu imóvel no melhor estado.</p>
+        <div class="social-icons">
+            <a href="https://wa.me/556192860664" target="_blank" rel="noopener noreferrer">&#x260F;</a>
+            <a href="https://instagram.com/construcheck_vistorias" target="_blank" rel="noopener noreferrer">&#x1F5E8;</a>
+            <a href="mailto:construcheck.vistorias@gmail.com" target="_blank" rel="noopener noreferrer">&#x2709;</a>
+        </div>
+    </footer>
+
+</body>
+</html>
